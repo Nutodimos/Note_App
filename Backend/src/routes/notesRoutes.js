@@ -3,11 +3,14 @@ import {
   createNotes,
   deleteNotes,
   getAllNotes,
+  getNotesById,
   updateNotes,
 } from "../controllers/notesController.js";
 const router = express.Router();
 
 router.get("/", getAllNotes);
+
+router.get("/:id", getNotesById);
 
 router.post("/", createNotes);
 
