@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import CreatePage from "./pages/CreatePage";
 import ContentPage from "./pages/ContentPage";
-import toast from "react-hot-toast";
 
 const App = () => {
   return (
@@ -15,5 +14,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
